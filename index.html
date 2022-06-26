@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIT-IUM GYMS | Go Fit Yourself!</title>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <section class="section-navbar">
+      <div class="container container-navbar">
+        <div class="toggle-and-logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-toggle"
+            onclick="toggleDisplay()"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h8m-8 6h16"
+            />
+          </svg>
+          <a href="/index.html"><h2>fit-ium gyms</h2></a>
+        </div>
+        <div class="nav-menu">
+          <ul onclick="hideMenu()">
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#locations">Gyms</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li><button class="btn cta-join-us">join us</button></li>
+            <li><button class="btn cta-sign-in">Sign in</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-hero">
+      <div class="container container-hero">
+        <div class="hero-text">
+          <h2>Fit Yourself Today</h2>
+          <h3>Use All Our Services</h3>
+          <p>from as low as 29€/month</p>
+
+          <button class="btn">join us now</button>
+
+          <div class="user-icons">
+            <div class="icons">
+              <img src="/media/user-1.jpg" alt="user icon" width="50px" />
+              <img src="/media/user-2.jpg" alt="user icon" width="50px" />
+              <img src="/media/user-3.jpg" alt="user icon" width="50px" />
+              <img src="/media/user-4.jpg" alt="user icon" width="50px" />
+              <img src="/media/user-5.jpg" alt="user icon" width="50px" />
+            </div>
+
+            <div class="icon-text">
+              <p>1500+ happy members</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-img">
+          <!--<img src="/media/gym-img.jpg" alt="A man doing an exercise" /> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section-plans" id="plans">
+      <div class="container container-plans">
+        <h2>Membership Plans</h2>
+        <div class="cards">
+          <div class="card card-one">
+            <div class="card-header">
+              <p>Basic</p>
+            </div>
+            <div class="card-sub-header">
+              <p>29€/month</p>
+            </div>
+
+            <div class="card-detail-header">
+              <p>Basic Features</p>
+            </div>
+            <div class="card-details">
+              <ul>
+                <li>Get entry from 7:00 to 21:00</li>
+                <li>Exercise 5 days a week</li>
+                <li>Valid only in one gym</li>
+                <li>Resignation period 2 months</li>
+                <li class="no-feature">No group training</li>
+                <li class="no-feature">No personal training consultation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card card-two">
+            <div class="card-header">
+              <p>Flexi</p>
+            </div>
+            <div class="card-sub-header">
+              <p>33€/month</p>
+            </div>
+
+            <div class="card-detail-header">
+              <p>Flexi Features</p>
+            </div>
+
+            <div class="card-details">
+              <ul>
+                <li>Get entry from 7:00 to 21:00</li>
+                <li>Exercise 7 days a week</li>
+                <li>Valid in two gyms</li>
+                <li>Resignation period 1 month</li>
+                <li>Free 2 group trainings per month</li>
+                <li class="no-feature">No personal training consultation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card card-three">
+            <div class="card-header">
+              <p>Premium</p>
+            </div>
+            <div class="card-sub-header">
+              <p>39€/month</p>
+            </div>
+
+            <div class="card-detail-header">
+              <p>Premium Features</p>
+            </div>
+            <div class="card-details">
+              <ul>
+                <li>Get entry 24h</li>
+                <li>Exercise 7 days a week</li>
+                <li>Valid in every gym</li>
+                <li>Resignation period 2 weeks</li>
+                <li>Unlimited group trainings</li>
+                <li>Personal training consultation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-location" id="locations">
+      <div class="container container-location">
+        <h2>Our Locations</h2>
+        <div class="locations">
+          <div class="location location-one">
+            <p class="location-header">Fit-ium Hypermarket Hilla</p>
+
+            <div class="location-detail">
+              <p>Tobiaksenkatu 40, 00350 Helsinki</p>
+              <p>Phone: 09 350 6585</p>
+              <p>Email: fitium-hilla@fitium.com</p>
+            </div>
+          </div>
+
+          <div class="location location-two">
+            <p class="location-header">Fit-ium Supermarket Holiday</p>
+
+            <div class="location-detail">
+              <p>Riventie 4, 50600 Mikkeli</p>
+              <p>Phone: 09 350 6465</p>
+              <p>Email: fitium-holiday@fitium.com</p>
+            </div>
+          </div>
+
+          <div class="location location-three">
+            <p class="location-header">Fit-ium Lahti</p>
+
+            <div class="location-detail">
+              <p>Oravankatu 15, 15160 Lahti</p>
+              <p>Phone: 09 350 8575</p>
+              <p>Email: fitium-lahti@fitium.com</p>
+            </div>
+          </div>
+
+          <div class="location location-four">
+            <p class="location-header">Fit-ium Hämeenlinna</p>
+
+            <div class="location-detail">
+              <p>Pakolaistenkatu 10, 12170 Hämeenlinna</p>
+              <p>Phone: 09 350 6465</p>
+              <p>Email: fitium-häme@fitium.com</p>
+            </div>
+          </div>
+
+          <div class="location location-five">
+            <p class="location-header">Fit-ium Supermarket Tango</p>
+
+            <div class="location-detail">
+              <p>Raisiotie 12, 28200 Pori</p>
+              <p>Phone: 09 350 9890</p>
+              <p>Email: fitium-tango@fitium.com</p>
+            </div>
+          </div>
+
+          <div class="location location-four">
+            <p class="location-header">Fit-ium Turku</p>
+
+            <div class="location-detail">
+              <p>Nelostie 18, 20500 Turku</p>
+              <p>Phone: 09 350 5060</p>
+              <p>Email: fitium-turku@fitium.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about-us" id="about">
+      <div class="container-about-us">
+        <div class="gym-img1">
+        <img src="/media/gym-img2.jpg" alt="Photo of inside of a gym"></div>
+        <div class="about-text">
+            <h2>Few Words</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nulla impedit temporibus omnis rem distinctio officia doloribus animi, quasi vero sequi quas itaque est eligendi! Magni assumenda sit eligendi veniam reprehenderit voluptatibus ratione similique, asperiores perferendis vitae architecto quisquam rem nostrum! Soluta dolorum amet sit aut a rerum enim eum.<br>
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, porro blanditiis ipsa impedit illo recusandae earum sint laboriosam rem eaque quibusdam ratione, quas sequi aspernatur eum ipsam cumque, illum est! Dolorum odit pariatur dolor impedit.</p>
+        </div>
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Different convenient locations</li>
+                <li>Modern and quality equipments</li>
+                <li>Up to unlimited visit ours</li>
+                <li>Competitive monthly membership fee</li>
+                <li>Group training and consultation</li>
+                <li>In-house vending machines</li>
+            </ul>
+        </div>
+        <div class="gym-img">
+        <img src="/media/gym-img3.jpg" alt="Photo of inside of a gym"></div>
+    </section>
+
+    <section class="section-contact" id="contact">
+      <div class="container-contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+          <form>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your full name"
+              required
+            />
+            <input type="email" id="email" placeholder="Your email" required />
+
+            <select name="purpose" id="purpose">
+              <option value="Select a Purpose">Select a Purpose</option>
+              <option value="membership">Membership</option>
+              <option value="queries">Other Queries</option>
+              <option value="feedbacks">Feedbacks</option>
+            </select>
+            <textarea
+              id="message"
+              max-length="500"
+              placeholder="Your Message (max 500 characters)"
+            ></textarea>
+            <button type="submit" id="send">SEND</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-footer">
+      <div class="container-footer">
+        
+        <div class="links">
+          <ul>
+            <li><h2>fit-ium gyms</h2></li>
+          <li><a href="#">Fit-ium as a company</a></li>
+          <li><a href="#">Become an entrepreneur</a></li>
+          <li><a href="#">Become an employee</a></li>
+        </ul>
+        </div>
+
+        <div class="links">
+          <ul>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Customer Service</a></li>
+        </ul>
+        </div>
+
+        <div class="links social-media">
+          <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
